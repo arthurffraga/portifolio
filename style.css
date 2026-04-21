@@ -1,0 +1,72 @@
+img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+section {
+  padding: 3rem 1;
+  text-align: center;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  text-align: left;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 2px 0;
+}
+body {
+  background-color:azure;
+  font-family: Raleway, sans-serif;
+}
+.nav-link {
+    color: #000000; /* Troque por darkgreen, black, ou o código HEX da cor que preferir */
+}
+.nav-link:hover {
+    color: #62ec62; /* Uma cor um pouco mais forte para dar a sensação de clique */
+}
+#minha-foto {
+  max-width: 400px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+.fontDif{
+  color: rgb(3, 3, 3);
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+    
+}
