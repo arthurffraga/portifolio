@@ -11,12 +11,12 @@ O objetivo deste projeto foi construir um portfólio pessoal responsivo e intera
 * **Validação de Formulário:** Uso de JavaScript para impedir o envio de mensagens vazias, exibindo alertas coloridos na tela.
 * **Interação Extra:** Contador de caracteres em tempo real na caixa de mensagem, com mudança de cor ao se aproximar do limite.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **HTML5**
 * **CSS3** 
 * **JavaScript** 
 * **Bootstrap 5** 
 * **Google Fonts**
 
-## 👨‍💻 Autor
+## Autor
 * **Arthur Fraga**
