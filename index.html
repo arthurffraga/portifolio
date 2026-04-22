@@ -11,35 +11,34 @@
     <title>Portfólio - Arthur </title>
 </head>
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> 
-    <div class="container d-flex align-items-center">
-        
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-            <span class="fs-4">Portfólio</span>
-        </a>
-
-        <nav>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                  <a href="index.html" class="btn btn-success" aria-current="page">Inicio</a>
-              </li>
-            <li><a href="sobre.html" class="nav-link">Sobre</a></li>
-            <li><a href="habilidades.html" class="nav-link">Habilidades</a></li>
-            <li><a href="iix.html" class="nav-link">Cursos</a></li>
-            <li><a href="contato.html" class="nav-link">Contato</a></li>
-            </ul>
+    <header class="py-3 mb-4 border-bottom"> 
+        <nav class="navbar navbar-expand-md container">            
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Portfólio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meuMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="meuMenu">
+                <ul class="nav nav-pills mt-3 mt-md-0 align-items-center">
+                    <li class="nav-item"><a href="index.html" class="btn btn-success" aria-current="page">Inicio</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="habilidades.html" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="cursos.html" class="nav-link">Cursos</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>            
         </nav>
-    </div>
-    </header> 
+    </header>  
     <main> 
         <section>
           <div class="fontDif">
               <h2>Bem vindo ao meu portfólio</h2>
               <p>Estudante de Sistemas de Informação pela UPE</p>
-              <img src="imagens/foto.jpeg" alt="Foto de Arthur">            
+              <img src="imagens/foto.jpeg" class= "imagem-padrao" alt="Foto de Arthur">            
           </div>
         </section>
     </main>
@@ -47,9 +46,10 @@
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         </ul>
-        <p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
+        <p class="text-center text-body-secondary">&copy; 2026 - Arthur</p>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
