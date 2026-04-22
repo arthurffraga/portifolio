@@ -17,6 +17,15 @@ O objetivo deste projeto foi construir um portfólio pessoal responsivo e intera
 * **JavaScript** 
 * **Bootstrap 5** 
 * **Google Fonts**
+## Como executar o projeto localmente
+
+Como este é um projeto estático (HTML, CSS e JS puro), não é necessária nenhuma instalação complexa de servidores ou banco de dados.
+
+1. Faça o download do código em formato ZIP ou clone este repositório:
+`git clone [https://github.com/arthurffraga/portifolio-arthur]`
+2. Extraia a pasta no seu computador.
+3. Dê um duplo clique no arquivo `index.html` para abri-lo diretamente no seu navegador padrão.
+4. **(Recomendado)** Para visualizar o código e testar alterações, abra a pasta no VS Code e utilize a extensão **Live Server**.
 
 ## Autor
 * **Arthur Fraga**

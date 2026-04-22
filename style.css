@@ -1,4 +1,4 @@
-#imagem-padrao {
+.imagem-padrao {
   max-width: 40%;
   height: auto;
   display: block;
@@ -6,7 +6,7 @@
 }
 
 section {
-  padding: 3rem 1;
+  padding: 3rem 1rem;
   text-align: center;
 }
 form {
@@ -15,6 +15,10 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 label {
   text-align: left;
@@ -32,10 +36,10 @@ body {
   font-family: Raleway, sans-serif;
 }
 .nav-link {
-    color: #000000; /* Troque por darkgreen, black, ou o código HEX da cor que preferir */
+    color: #000000;
 }
 .nav-link:hover {
-    color: #62ec62; /* Uma cor um pouco mais forte para dar a sensação de clique */
+    color: #62ec62;
 }
 #minha-foto {
   max-width: 400px;
